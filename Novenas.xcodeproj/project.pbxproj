@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		558686855C02E03751242A16 /* Pods_Novenas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58D4295320BB0D07DC843B8 /* Pods_Novenas.framework */; };
+		7A23C9B61C0BD2B0006EF005 /* SongDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A23C9B51C0BD2B0006EF005 /* SongDetailView.swift */; };
+		7A58179C1C0F7B5500C9447A /* testTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58179B1C0F7B5500C9447A /* testTransition.swift */; };
+		7A58179E1C0F806D00C9447A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A58179D1C0F806D00C9447A /* QuartzCore.framework */; };
+		7A5817A01C0F84FC00C9447A /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 7A58179F1C0F84FC00C9447A /* default.realm */; };
+		7A5817A81C0F901200C9447A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817A71C0F901200C9447A /* StoreKit.framework */; };
+		7A5817AA1C0F901E00C9447A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817A91C0F901E00C9447A /* Foundation.framework */; };
+		7A5817AC1C0F902900C9447A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817AB1C0F902900C9447A /* CoreGraphics.framework */; };
+		7A5817AE1C0F903000C9447A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817AD1C0F903000C9447A /* UIKit.framework */; };
+		7A5817BA1C0F9E4800C9447A /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817AF1C0F90D500C9447A /* Chartboost.framework */; };
+		7A5817CC1C0FBA2100C9447A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817CB1C0FBA2100C9447A /* AdSupport.framework */; };
+		7A5817CE1C0FBA2E00C9447A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817CD1C0FBA2E00C9447A /* AudioToolbox.framework */; };
+		7A5817D01C0FBA3700C9447A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817CF1C0FBA3700C9447A /* AVFoundation.framework */; };
+		7A5817D21C0FBA3E00C9447A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817D11C0FBA3E00C9447A /* CoreLocation.framework */; };
+		7A5817D41C0FBA4500C9447A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817D31C0FBA4500C9447A /* CoreTelephony.framework */; };
+		7A5817D61C0FBA4C00C9447A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817D51C0FBA4C00C9447A /* EventKit.framework */; };
+		7A5817D81C0FBA5100C9447A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817D71C0FBA5100C9447A /* EventKitUI.framework */; };
+		7A5817DA1C0FBA5700C9447A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817D91C0FBA5700C9447A /* MediaPlayer.framework */; };
+		7A5817DC1C0FBA5C00C9447A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817DB1C0FBA5C00C9447A /* MessageUI.framework */; };
+		7A5817DE1C0FBA6300C9447A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817DD1C0FBA6300C9447A /* SafariServices.framework */; };
+		7A5817E01C0FBA6900C9447A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817DF1C0FBA6900C9447A /* Security.framework */; };
+		7A5817E21C0FBA6E00C9447A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817E11C0FBA6E00C9447A /* Social.framework */; };
+		7A5817E41C0FBA7F00C9447A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817E31C0FBA7F00C9447A /* SystemConfiguration.framework */; };
+		7A5817E61C0FBA9500C9447A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817E51C0FBA9500C9447A /* libz.tbd */; };
+		7A5817E81C0FBAA200C9447A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5817E71C0FBAA200C9447A /* libsqlite3.0.tbd */; };
+		7A5817F71C0FF97700C9447A /* novenas_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5817F61C0FF97700C9447A /* novenas_logo@3x.png */; };
+		7A5817FA1C0FF97D00C9447A /* novenas_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5817F81C0FF97D00C9447A /* novenas_logo.png */; };
+		7A5817FB1C0FF97D00C9447A /* novenas_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5817F91C0FF97D00C9447A /* novenas_logo@2x.png */; };
+		7A5817FF1C1006C500C9447A /* PirateDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5817FE1C1006C500C9447A /* PirateDB.swift */; };
+		7A7526A51C0E7A10004F204C /* PrayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7526A41C0E7A10004F204C /* PrayDetailView.swift */; };
+		7AB2B2CB1C0CB02200C12DC9 /* JoyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2B2CA1C0CB02200C12DC9 /* JoyViewController.swift */; };
+		7AB2B2D01C0CB17E00C12DC9 /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2B2CD1C0CB17E00C12DC9 /* CustomKolodaView.swift */; };
+		7AB2B2D91C0CB40E00C12DC9 /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2B2D81C0CB40E00C12DC9 /* BackgroundAnimationViewController.swift */; };
+		7AB4DF3F1C0D1A0300ACD616 /* Linearicons-Free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4DF3E1C0D1A0300ACD616 /* Linearicons-Free.ttf */; };
+		7AB4DF5A1C0D2B4E00ACD616 /* Christmas.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4DF571C0D2B4E00ACD616 /* Christmas.png */; };
+		7AB4DF5B1C0D2B4E00ACD616 /* Christmas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4DF581C0D2B4E00ACD616 /* Christmas@2x.png */; };
+		7AB4DF5C1C0D2B4E00ACD616 /* Christmas@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4DF591C0D2B4E00ACD616 /* Christmas@3x.png */; };
+		7AB4DF5F1C0D3C6600ACD616 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4DF5E1C0D3C6600ACD616 /* Song.swift */; };
+		7AB4DF611C0D3CC300ACD616 /* Pray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4DF601C0D3CC300ACD616 /* Pray.swift */; };
+		7AB4DF631C0D3D1500ACD616 /* Consideration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4DF621C0D3D1500ACD616 /* Consideration.swift */; };
+		7AB4DF651C0D3F8500ACD616 /* Joy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4DF641C0D3F8500ACD616 /* Joy.swift */; };
+		7ADEA4CD1C0BC9D000AB5DFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEA4CC1C0BC9D000AB5DFE /* AppDelegate.swift */; };
+		7ADEA4CF1C0BC9D000AB5DFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEA4CE1C0BC9D000AB5DFE /* ViewController.swift */; };
+		7ADEA4D21C0BC9D000AB5DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEA4D01C0BC9D000AB5DFE /* Main.storyboard */; };
+		7ADEA4D41C0BC9D000AB5DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEA4D31C0BC9D000AB5DFE /* Assets.xcassets */; };
+		7ADEA4D71C0BC9D000AB5DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEA4D51C0BC9D000AB5DFE /* LaunchScreen.storyboard */; };
+		7ADEA4E21C0BC9D100AB5DFE /* NovenasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEA4E11C0BC9D100AB5DFE /* NovenasTests.swift */; };
+		7ADEA4ED1C0BC9D100AB5DFE /* NovenasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEA4EC1C0BC9D100AB5DFE /* NovenasUITests.swift */; };
+		7ADEA4FD1C0BCE3900AB5DFE /* SongsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEA4FC1C0BCE3900AB5DFE /* SongsListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ADEA4DE1C0BC9D100AB5DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADEA4C11C0BC9D000AB5DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADEA4C81C0BC9D000AB5DFE;
+			remoteInfo = Novenas;
+		};
+		7ADEA4E91C0BC9D100AB5DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADEA4C11C0BC9D000AB5DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADEA4C81C0BC9D000AB5DFE;
+			remoteInfo = Novenas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39135E5590AE95A3D3EA51A6 /* Pods-Novenas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novenas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Novenas/Pods-Novenas.debug.xcconfig"; sourceTree = "<group>"; };
+		7A23356DC49EF80FFAE78B11 /* Pods-Novenas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novenas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Novenas/Pods-Novenas.release.xcconfig"; sourceTree = "<group>"; };
+		7A23C9B51C0BD2B0006EF005 /* SongDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailView.swift; sourceTree = "<group>"; };
+		7A23C9B71C0BD4E4006EF005 /* Novenas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Novenas-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A58179B1C0F7B5500C9447A /* testTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testTransition.swift; sourceTree = "<group>"; };
+		7A58179D1C0F806D00C9447A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7A58179F1C0F84FC00C9447A /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
+		7A5817A71C0F901200C9447A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7A5817A91C0F901E00C9447A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A5817AB1C0F902900C9447A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A5817AD1C0F903000C9447A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A5817AF1C0F90D500C9447A /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = Novenas/Chartboost.framework; sourceTree = SOURCE_ROOT; };
+		7A5817CB1C0FBA2100C9447A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		7A5817CD1C0FBA2E00C9447A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7A5817CF1C0FBA3700C9447A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7A5817D11C0FBA3E00C9447A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7A5817D31C0FBA4500C9447A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7A5817D51C0FBA4C00C9447A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		7A5817D71C0FBA5100C9447A /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		7A5817D91C0FBA5700C9447A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7A5817DB1C0FBA5C00C9447A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7A5817DD1C0FBA6300C9447A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		7A5817DF1C0FBA6900C9447A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7A5817E11C0FBA6E00C9447A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7A5817E31C0FBA7F00C9447A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7A5817E51C0FBA9500C9447A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7A5817E71C0FBAA200C9447A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7A5817F61C0FF97700C9447A /* novenas_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "novenas_logo@3x.png"; sourceTree = "<group>"; };
+		7A5817F81C0FF97D00C9447A /* novenas_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = novenas_logo.png; sourceTree = "<group>"; };
+		7A5817F91C0FF97D00C9447A /* novenas_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "novenas_logo@2x.png"; sourceTree = "<group>"; };
+		7A5817FE1C1006C500C9447A /* PirateDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PirateDB.swift; sourceTree = "<group>"; };
+		7A7526A41C0E7A10004F204C /* PrayDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayDetailView.swift; sourceTree = "<group>"; };
+		7AB2B2CA1C0CB02200C12DC9 /* JoyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoyViewController.swift; sourceTree = "<group>"; };
+		7AB2B2CD1C0CB17E00C12DC9 /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		7AB2B2D81C0CB40E00C12DC9 /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
+		7AB4DF3E1C0D1A0300ACD616 /* Linearicons-Free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Linearicons-Free.ttf"; sourceTree = SOURCE_ROOT; };
+		7AB4DF571C0D2B4E00ACD616 /* Christmas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Christmas.png; sourceTree = "<group>"; };
+		7AB4DF581C0D2B4E00ACD616 /* Christmas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christmas@2x.png"; sourceTree = "<group>"; };
+		7AB4DF591C0D2B4E00ACD616 /* Christmas@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christmas@3x.png"; sourceTree = "<group>"; };
+		7AB4DF5E1C0D3C6600ACD616 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Song.swift; path = Entities/Song.swift; sourceTree = "<group>"; };
+		7AB4DF601C0D3CC300ACD616 /* Pray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pray.swift; path = Entities/Pray.swift; sourceTree = "<group>"; };
+		7AB4DF621C0D3D1500ACD616 /* Consideration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Consideration.swift; path = Entities/Consideration.swift; sourceTree = "<group>"; };
+		7AB4DF641C0D3F8500ACD616 /* Joy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Joy.swift; path = Entities/Joy.swift; sourceTree = "<group>"; };
+		7ADEA4C91C0BC9D000AB5DFE /* Novenas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novenas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADEA4CC1C0BC9D000AB5DFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ADEA4CE1C0BC9D000AB5DFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ADEA4D11C0BC9D000AB5DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ADEA4D31C0BC9D000AB5DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ADEA4D61C0BC9D000AB5DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ADEA4D81C0BC9D000AB5DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADEA4DD1C0BC9D100AB5DFE /* NovenasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovenasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADEA4E11C0BC9D100AB5DFE /* NovenasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovenasTests.swift; sourceTree = "<group>"; };
+		7ADEA4E31C0BC9D100AB5DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADEA4E81C0BC9D100AB5DFE /* NovenasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovenasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADEA4EC1C0BC9D100AB5DFE /* NovenasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovenasUITests.swift; sourceTree = "<group>"; };
+		7ADEA4EE1C0BC9D100AB5DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADEA4FC1C0BCE3900AB5DFE /* SongsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsListView.swift; sourceTree = "<group>"; };
+		D58D4295320BB0D07DC843B8 /* Pods_Novenas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Novenas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ADEA4C61C0BC9D000AB5DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5817E81C0FBAA200C9447A /* libsqlite3.0.tbd in Frameworks */,
+				7A5817E61C0FBA9500C9447A /* libz.tbd in Frameworks */,
+				7A5817E41C0FBA7F00C9447A /* SystemConfiguration.framework in Frameworks */,
+				7A5817A81C0F901200C9447A /* StoreKit.framework in Frameworks */,
+				7A5817E21C0FBA6E00C9447A /* Social.framework in Frameworks */,
+				7A5817E01C0FBA6900C9447A /* Security.framework in Frameworks */,
+				7A5817DE1C0FBA6300C9447A /* SafariServices.framework in Frameworks */,
+				7A5817DC1C0FBA5C00C9447A /* MessageUI.framework in Frameworks */,
+				7A5817DA1C0FBA5700C9447A /* MediaPlayer.framework in Frameworks */,
+				7A5817D81C0FBA5100C9447A /* EventKitUI.framework in Frameworks */,
+				7A5817D61C0FBA4C00C9447A /* EventKit.framework in Frameworks */,
+				7A5817D41C0FBA4500C9447A /* CoreTelephony.framework in Frameworks */,
+				7A5817D21C0FBA3E00C9447A /* CoreLocation.framework in Frameworks */,
+				7A5817D01C0FBA3700C9447A /* AVFoundation.framework in Frameworks */,
+				7A5817CE1C0FBA2E00C9447A /* AudioToolbox.framework in Frameworks */,
+				7A5817CC1C0FBA2100C9447A /* AdSupport.framework in Frameworks */,
+				7A5817BA1C0F9E4800C9447A /* Chartboost.framework in Frameworks */,
+				7A5817AE1C0F903000C9447A /* UIKit.framework in Frameworks */,
+				7A5817AC1C0F902900C9447A /* CoreGraphics.framework in Frameworks */,
+				7A5817AA1C0F901E00C9447A /* Foundation.framework in Frameworks */,
+				7A58179E1C0F806D00C9447A /* QuartzCore.framework in Frameworks */,
+				558686855C02E03751242A16 /* Pods_Novenas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEA4DA1C0BC9D100AB5DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEA4E51C0BC9D100AB5DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AB4DF401C0D1EC400ACD616 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7A5817F81C0FF97D00C9447A /* novenas_logo.png */,
+				7A5817F91C0FF97D00C9447A /* novenas_logo@2x.png */,
+				7A5817F61C0FF97700C9447A /* novenas_logo@3x.png */,
+				7A5817AF1C0F90D500C9447A /* Chartboost.framework */,
+				7A58179F1C0F84FC00C9447A /* default.realm */,
+				7AB4DF571C0D2B4E00ACD616 /* Christmas.png */,
+				7AB4DF581C0D2B4E00ACD616 /* Christmas@2x.png */,
+				7AB4DF591C0D2B4E00ACD616 /* Christmas@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7ADEA4C01C0BC9D000AB5DFE = {
+			isa = PBXGroup;
+			children = (
+				7ADEA4CB1C0BC9D000AB5DFE /* Novenas */,
+				7ADEA4E01C0BC9D100AB5DFE /* NovenasTests */,
+				7ADEA4EB1C0BC9D100AB5DFE /* NovenasUITests */,
+				7ADEA4CA1C0BC9D000AB5DFE /* Products */,
+				7E1D71088DB669E0BED26562 /* Pods */,
+				9F6A3000E4E11CB3462BDCB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7ADEA4CA1C0BC9D000AB5DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEA4C91C0BC9D000AB5DFE /* Novenas.app */,
+				7ADEA4DD1C0BC9D100AB5DFE /* NovenasTests.xctest */,
+				7ADEA4E81C0BC9D100AB5DFE /* NovenasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ADEA4CB1C0BC9D000AB5DFE /* Novenas */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4DF401C0D1EC400ACD616 /* Assets */,
+				7AB4DF3E1C0D1A0300ACD616 /* Linearicons-Free.ttf */,
+				7ADEA4FA1C0BCE0900AB5DFE /* Entities */,
+				7ADEA4FB1C0BCE0E00AB5DFE /* Views */,
+				7ADEA4CC1C0BC9D000AB5DFE /* AppDelegate.swift */,
+				7ADEA4CE1C0BC9D000AB5DFE /* ViewController.swift */,
+				7ADEA4D01C0BC9D000AB5DFE /* Main.storyboard */,
+				7ADEA4D31C0BC9D000AB5DFE /* Assets.xcassets */,
+				7ADEA4D51C0BC9D000AB5DFE /* LaunchScreen.storyboard */,
+				7ADEA4D81C0BC9D000AB5DFE /* Info.plist */,
+				7A23C9B71C0BD4E4006EF005 /* Novenas-Bridging-Header.h */,
+			);
+			path = Novenas;
+			sourceTree = "<group>";
+		};
+		7ADEA4E01C0BC9D100AB5DFE /* NovenasTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEA4E11C0BC9D100AB5DFE /* NovenasTests.swift */,
+				7ADEA4E31C0BC9D100AB5DFE /* Info.plist */,
+			);
+			path = NovenasTests;
+			sourceTree = "<group>";
+		};
+		7ADEA4EB1C0BC9D100AB5DFE /* NovenasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEA4EC1C0BC9D100AB5DFE /* NovenasUITests.swift */,
+				7ADEA4EE1C0BC9D100AB5DFE /* Info.plist */,
+			);
+			path = NovenasUITests;
+			sourceTree = "<group>";
+		};
+		7ADEA4FA1C0BCE0900AB5DFE /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4DF5E1C0D3C6600ACD616 /* Song.swift */,
+				7AB4DF601C0D3CC300ACD616 /* Pray.swift */,
+				7AB4DF621C0D3D1500ACD616 /* Consideration.swift */,
+				7AB4DF641C0D3F8500ACD616 /* Joy.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		7ADEA4FB1C0BCE0E00AB5DFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A58179B1C0F7B5500C9447A /* testTransition.swift */,
+				7AB2B2D81C0CB40E00C12DC9 /* BackgroundAnimationViewController.swift */,
+				7AB2B2CD1C0CB17E00C12DC9 /* CustomKolodaView.swift */,
+				7A23C9B51C0BD2B0006EF005 /* SongDetailView.swift */,
+				7ADEA4FC1C0BCE3900AB5DFE /* SongsListView.swift */,
+				7AB2B2CA1C0CB02200C12DC9 /* JoyViewController.swift */,
+				7A7526A41C0E7A10004F204C /* PrayDetailView.swift */,
+				7A5817FE1C1006C500C9447A /* PirateDB.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7E1D71088DB669E0BED26562 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39135E5590AE95A3D3EA51A6 /* Pods-Novenas.debug.xcconfig */,
+				7A23356DC49EF80FFAE78B11 /* Pods-Novenas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F6A3000E4E11CB3462BDCB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A5817E71C0FBAA200C9447A /* libsqlite3.0.tbd */,
+				7A5817E51C0FBA9500C9447A /* libz.tbd */,
+				7A5817E31C0FBA7F00C9447A /* SystemConfiguration.framework */,
+				7A5817E11C0FBA6E00C9447A /* Social.framework */,
+				7A5817DF1C0FBA6900C9447A /* Security.framework */,
+				7A5817DD1C0FBA6300C9447A /* SafariServices.framework */,
+				7A5817DB1C0FBA5C00C9447A /* MessageUI.framework */,
+				7A5817D91C0FBA5700C9447A /* MediaPlayer.framework */,
+				7A5817D71C0FBA5100C9447A /* EventKitUI.framework */,
+				7A5817D51C0FBA4C00C9447A /* EventKit.framework */,
+				7A5817D31C0FBA4500C9447A /* CoreTelephony.framework */,
+				7A5817D11C0FBA3E00C9447A /* CoreLocation.framework */,
+				7A5817CF1C0FBA3700C9447A /* AVFoundation.framework */,
+				7A5817CD1C0FBA2E00C9447A /* AudioToolbox.framework */,
+				7A5817CB1C0FBA2100C9447A /* AdSupport.framework */,
+				7A5817AD1C0F903000C9447A /* UIKit.framework */,
+				7A5817AB1C0F902900C9447A /* CoreGraphics.framework */,
+				7A5817A91C0F901E00C9447A /* Foundation.framework */,
+				7A5817A71C0F901200C9447A /* StoreKit.framework */,
+				7A58179D1C0F806D00C9447A /* QuartzCore.framework */,
+				D58D4295320BB0D07DC843B8 /* Pods_Novenas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ADEA4C81C0BC9D000AB5DFE /* Novenas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADEA4F11C0BC9D100AB5DFE /* Build configuration list for PBXNativeTarget "Novenas" */;
+			buildPhases = (
+				8648667D7EEAC506A999C96D /* Check Pods Manifest.lock */,
+				7ADEA4C51C0BC9D000AB5DFE /* Sources */,
+				7ADEA4C61C0BC9D000AB5DFE /* Frameworks */,
+				7ADEA4C71C0BC9D000AB5DFE /* Resources */,
+				E8D10060FB218A8E1489A499 /* Embed Pods Frameworks */,
+				D45108728B74DA22ABCB3D82 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Novenas;
+			productName = Novenas;
+			productReference = 7ADEA4C91C0BC9D000AB5DFE /* Novenas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ADEA4DC1C0BC9D100AB5DFE /* NovenasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADEA4F41C0BC9D100AB5DFE /* Build configuration list for PBXNativeTarget "NovenasTests" */;
+			buildPhases = (
+				7ADEA4D91C0BC9D100AB5DFE /* Sources */,
+				7ADEA4DA1C0BC9D100AB5DFE /* Frameworks */,
+				7ADEA4DB1C0BC9D100AB5DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADEA4DF1C0BC9D100AB5DFE /* PBXTargetDependency */,
+			);
+			name = NovenasTests;
+			productName = NovenasTests;
+			productReference = 7ADEA4DD1C0BC9D100AB5DFE /* NovenasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ADEA4E71C0BC9D100AB5DFE /* NovenasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADEA4F71C0BC9D100AB5DFE /* Build configuration list for PBXNativeTarget "NovenasUITests" */;
+			buildPhases = (
+				7ADEA4E41C0BC9D100AB5DFE /* Sources */,
+				7ADEA4E51C0BC9D100AB5DFE /* Frameworks */,
+				7ADEA4E61C0BC9D100AB5DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADEA4EA1C0BC9D100AB5DFE /* PBXTargetDependency */,
+			);
+			name = NovenasUITests;
+			productName = NovenasUITests;
+			productReference = 7ADEA4E81C0BC9D100AB5DFE /* NovenasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ADEA4C11C0BC9D000AB5DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jorgeovalle;
+				TargetAttributes = {
+					7ADEA4C81C0BC9D000AB5DFE = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = QF2P6LAFBK;
+					};
+					7ADEA4DC1C0BC9D100AB5DFE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 7ADEA4C81C0BC9D000AB5DFE;
+					};
+					7ADEA4E71C0BC9D100AB5DFE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 7ADEA4C81C0BC9D000AB5DFE;
+					};
+				};
+			};
+			buildConfigurationList = 7ADEA4C41C0BC9D000AB5DFE /* Build configuration list for PBXProject "Novenas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ADEA4C01C0BC9D000AB5DFE;
+			productRefGroup = 7ADEA4CA1C0BC9D000AB5DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ADEA4C81C0BC9D000AB5DFE /* Novenas */,
+				7ADEA4DC1C0BC9D100AB5DFE /* NovenasTests */,
+				7ADEA4E71C0BC9D100AB5DFE /* NovenasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ADEA4C71C0BC9D000AB5DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEA4D71C0BC9D000AB5DFE /* LaunchScreen.storyboard in Resources */,
+				7AB4DF5C1C0D2B4E00ACD616 /* Christmas@3x.png in Resources */,
+				7AB4DF5A1C0D2B4E00ACD616 /* Christmas.png in Resources */,
+				7AB4DF3F1C0D1A0300ACD616 /* Linearicons-Free.ttf in Resources */,
+				7A5817FA1C0FF97D00C9447A /* novenas_logo.png in Resources */,
+				7A5817A01C0F84FC00C9447A /* default.realm in Resources */,
+				7ADEA4D41C0BC9D000AB5DFE /* Assets.xcassets in Resources */,
+				7A5817FB1C0FF97D00C9447A /* novenas_logo@2x.png in Resources */,
+				7AB4DF5B1C0D2B4E00ACD616 /* Christmas@2x.png in Resources */,
+				7ADEA4D21C0BC9D000AB5DFE /* Main.storyboard in Resources */,
+				7A5817F71C0FF97700C9447A /* novenas_logo@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEA4DB1C0BC9D100AB5DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEA4E61C0BC9D100AB5DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8648667D7EEAC506A999C96D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D45108728B74DA22ABCB3D82 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Novenas/Pods-Novenas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D10060FB218A8E1489A499 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Novenas/Pods-Novenas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ADEA4C51C0BC9D000AB5DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB2B2D01C0CB17E00C12DC9 /* CustomKolodaView.swift in Sources */,
+				7AB2B2D91C0CB40E00C12DC9 /* BackgroundAnimationViewController.swift in Sources */,
+				7A23C9B61C0BD2B0006EF005 /* SongDetailView.swift in Sources */,
+				7A58179C1C0F7B5500C9447A /* testTransition.swift in Sources */,
+				7AB4DF611C0D3CC300ACD616 /* Pray.swift in Sources */,
+				7AB4DF631C0D3D1500ACD616 /* Consideration.swift in Sources */,
+				7A7526A51C0E7A10004F204C /* PrayDetailView.swift in Sources */,
+				7AB4DF651C0D3F8500ACD616 /* Joy.swift in Sources */,
+				7ADEA4FD1C0BCE3900AB5DFE /* SongsListView.swift in Sources */,
+				7AB4DF5F1C0D3C6600ACD616 /* Song.swift in Sources */,
+				7A5817FF1C1006C500C9447A /* PirateDB.swift in Sources */,
+				7AB2B2CB1C0CB02200C12DC9 /* JoyViewController.swift in Sources */,
+				7ADEA4CF1C0BC9D000AB5DFE /* ViewController.swift in Sources */,
+				7ADEA4CD1C0BC9D000AB5DFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEA4D91C0BC9D100AB5DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEA4E21C0BC9D100AB5DFE /* NovenasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEA4E41C0BC9D100AB5DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEA4ED1C0BC9D100AB5DFE /* NovenasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ADEA4DF1C0BC9D100AB5DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ADEA4C81C0BC9D000AB5DFE /* Novenas */;
+			targetProxy = 7ADEA4DE1C0BC9D100AB5DFE /* PBXContainerItemProxy */;
+		};
+		7ADEA4EA1C0BC9D100AB5DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ADEA4C81C0BC9D000AB5DFE /* Novenas */;
+			targetProxy = 7ADEA4E91C0BC9D100AB5DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ADEA4D01C0BC9D000AB5DFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADEA4D11C0BC9D000AB5DFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ADEA4D51C0BC9D000AB5DFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADEA4D61C0BC9D000AB5DFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ADEA4EF1C0BC9D100AB5DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ADEA4F01C0BC9D100AB5DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ADEA4F21C0BC9D100AB5DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39135E5590AE95A3D3EA51A6 /* Pods-Novenas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jorge Raul Ovalle Zuleta (UGPQWP42UQ)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Novenas",
+				);
+				INFOPLIST_FILE = Novenas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Novenas/Libs",
+					"$(PROJECT_DIR)/Novenas/InMobi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.jomobile.novenas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c9e781d4-789c-4056-9a8b-b211786558fd";
+				SWIFT_OBJC_BRIDGING_HEADER = "Novenas/Novenas-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ADEA4F31C0BC9D100AB5DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A23356DC49EF80FFAE78B11 /* Pods-Novenas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jorge Ovalle Z (QF2P6LAFBK)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Novenas",
+				);
+				INFOPLIST_FILE = Novenas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Novenas/Libs",
+					"$(PROJECT_DIR)/Novenas/InMobi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.jomobile.novenas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d8bcee98-7c1a-4752-8526-5641136ba695";
+				SWIFT_OBJC_BRIDGING_HEADER = "Novenas/Novenas-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7ADEA4F51C0BC9D100AB5DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NovenasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jorgeovalle.NovenasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novenas.app/Novenas";
+			};
+			name = Debug;
+		};
+		7ADEA4F61C0BC9D100AB5DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NovenasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jorgeovalle.NovenasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novenas.app/Novenas";
+			};
+			name = Release;
+		};
+		7ADEA4F81C0BC9D100AB5DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NovenasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jorgeovalle.NovenasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Novenas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7ADEA4F91C0BC9D100AB5DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NovenasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jorgeovalle.NovenasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Novenas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ADEA4C41C0BC9D000AB5DFE /* Build configuration list for PBXProject "Novenas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADEA4EF1C0BC9D100AB5DFE /* Debug */,
+				7ADEA4F01C0BC9D100AB5DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADEA4F11C0BC9D100AB5DFE /* Build configuration list for PBXNativeTarget "Novenas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADEA4F21C0BC9D100AB5DFE /* Debug */,
+				7ADEA4F31C0BC9D100AB5DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADEA4F41C0BC9D100AB5DFE /* Build configuration list for PBXNativeTarget "NovenasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADEA4F51C0BC9D100AB5DFE /* Debug */,
+				7ADEA4F61C0BC9D100AB5DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADEA4F71C0BC9D100AB5DFE /* Build configuration list for PBXNativeTarget "NovenasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADEA4F81C0BC9D100AB5DFE /* Debug */,
+				7ADEA4F91C0BC9D100AB5DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ADEA4C11C0BC9D000AB5DFE /* Project object */;
+}

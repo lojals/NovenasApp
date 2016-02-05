@@ -1,0 +1,25 @@
+PODS:
+  - FlatUIKit (1.6.2)
+  - Google-Mobile-Ads-SDK (7.5.2)
+  - Koloda (2.0.4):
+    - pop (~> 1.0)
+  - pop (1.0.8)
+  - YLMoment (0.6.0)
+  - youtube-ios-player-helper (0.1.4)
+
+DEPENDENCIES:
+  - FlatUIKit
+  - Google-Mobile-Ads-SDK (~> 7.0)
+  - Koloda
+  - YLMoment
+  - youtube-ios-player-helper (= 0.1.4)
+
+SPEC CHECKSUMS:
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  Google-Mobile-Ads-SDK: 24a8ddfc0bcfec281960c5d88f75327df0d86b00
+  Koloda: f9ec40b89803c5cc60e8e573fea78bc313fb4455
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  YLMoment: a342e85269150756105901c4b701070154f82c16
+  youtube-ios-player-helper: 84b1485ebb4b7c6b619c6e05edcb55186723a7c6
+
+COCOAPODS: 0.39.0
